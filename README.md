@@ -1,5 +1,6 @@
 # km_notes
 
+```
 production-readiness-audit/
 │
 ├── 00-audit-metadata/                 # 审计元数据：确保审计范围、版本、结果可追溯
@@ -135,3 +136,4 @@ production-readiness-audit/
                                       # Critical/High 问题、整改完成情况、
                                       # 未验证事项、残余风险及
                                       # GO / CONDITIONAL GO / NO-GO 建议
+```
