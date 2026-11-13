@@ -137,3 +137,21 @@ production-readiness-audit/
                                       # 未验证事项、残余风险及
                                       # GO / CONDITIONAL GO / NO-GO 建议
 ```
+
+
+```
+
+审查维度	重点审查项目	优先级
+1. Code Quality	命名、重复代码、复杂度、类型检查、异常处理、死代码	P1
+2. Architecture & Design	分层架构、职责边界、耦合、SOLID、设计模式、技术债	P1
+3. Security	注入漏洞、鉴权、权限控制、敏感信息、加密、API 安全	P0
+4. Dependencies & Supply Chain	第三方包漏洞、版本锁定、许可证、过时包、恶意依赖风险	P0
+5. Functional Correctness	边界条件、业务逻辑、状态一致性、竞态条件、幂等性	P0
+6. Testing & QA	单元测试、集成测试、覆盖率、回归测试、失败场景测试	P0
+7. Performance & Scalability	CPU、内存、数据库性能、连接池、吞吐量、限流	P1
+8. Reliability & Resilience	超时、重试、熔断、降级、故障恢复、资源泄漏	P0
+9. Database & Data Integrity	Schema、索引、事务、Migration、备份恢复、数据一致性	P0
+10. DevOps & Deployment	CI/CD、Docker、Kubernetes、配置管理、回滚	P0
+11. Observability & Operations	日志、Metrics、Tracing、告警、Runbook	P1
+12. Documentation & Governance	ADR、API 文档、配置文档、责任归属、安全审计记录	P2
+```
